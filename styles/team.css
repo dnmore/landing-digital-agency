@@ -1,0 +1,43 @@
+#team {
+  padding: 1rem;
+  margin: 0;
+  background: linear-gradient(
+    to left top,
+    var(--color-lightcyan),
+    var(--color-lightgrey)
+  );
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  border: 1px solid var(--color-darkblue);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    90deg,
+    var(--color-darkblue),
+    var(--color-darkviolet)
+  );
+  color: var(--color-ghostwhite);
+}
+
+.team-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team-content {
+  padding: 2rem;
+}
+
+.team-content p {
+  font-style: italic;
+}

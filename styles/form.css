@@ -1,0 +1,31 @@
+#contact {
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    var(--color-darkblue),
+    var(--color-darkviolet)
+  );
+  color: var(--color-ghostwhite);
+}
+
+.form-item {
+  list-style: none;
+  padding: 0.2rem 0;
+}
+
+select,
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  font: inherit;
+}
+
+option {
+  font: inherit;
+  
+}
+
+button {
+  padding: 5px 10px;
+}
