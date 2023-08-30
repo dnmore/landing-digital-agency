@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   --color-lightgrey: #eee9e7;
   --color-darkgrey: #32292f;
   --color-lightcyan: #e5edf3;
@@ -36,6 +37,7 @@ header a {
 
 a {
   text-decoration: none;
+  color: var(--color-ghostwhite);
 }
 
 nav {
