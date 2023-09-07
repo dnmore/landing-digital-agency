@@ -7,14 +7,14 @@
   --color-darkgrey: #32292f;
   --color-lightcyan: #e5edf3;
   --color-darkblue: #03045e;
-  --color-purple: #dd1155;
+  --color-purple: #c6408a;
   --color-lightpurple: #f23d79;
   --color-darkviolet: #29035e;
   --color-ghostwhite: #f5f3f7;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: var(--color-ghostwhite);
@@ -23,17 +23,11 @@ body {
 }
 
 header {
-  padding: 2rem;
-  background: linear-gradient(
-    90deg,
-    var(--color-darkblue),
-    var(--color-darkviolet)
-  );
+  padding: 0.5rem;
+  background-color: var(--color-darkblue);
 }
 
-header a {
-  color: var(--color-ghostwhite);
-}
+
 
 a {
   text-decoration: none;
@@ -42,9 +36,9 @@ a {
 
 nav {
   align-items: center;
-  justify-content: center;
+
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
 nav a {
@@ -53,25 +47,9 @@ nav a {
   position: relative;
 }
 
-nav a::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-purple);
-  transform-origin: bottom right;
-  transition: transform 0.65s ease-out;
-}
-
-nav a:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 #logo {
+  font-family: "Merriweather", serif;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -95,50 +73,39 @@ nav a:hover::after {
 }
 
 #hero {
-  padding: 5%;
-  position: relative;
-  height: 100vh;
-  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#hero::before {
-  content: "";
-  background-image: url("/images/team-working.avif");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.55;
-}
-
-#hero-content {
-  position: relative;
+  flex-direction: column-reverse;
 }
 
 #hero-content p {
-  font-style: italic;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
+#hero-content img {
+  max-width: 90%;
+}
+
 h1 {
-  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
 }
 
 h3 {
+  font-family: "Merriweather", serif;
   font-size: 1.2rem;
 }
 
 footer {
+  
   padding: 1rem;
   background: linear-gradient(
     90deg,
@@ -148,6 +115,7 @@ footer {
   color: var(--color-ghostwhite);
   display: flex;
   flex-direction: column;
+  
 }
 
 svg {

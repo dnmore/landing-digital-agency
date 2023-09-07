@@ -1,10 +1,12 @@
 #about {
+  margin: 0 auto;
   padding: 1rem;
 }
 
 #about-content li {
   list-style: none;
   padding: 0.5rem 0;
+  text-align: justify;
 }
 
 #about-content img {
@@ -35,7 +37,7 @@
 }
 
 #results {
-  padding: 1rem;
+  
   background: linear-gradient(
     90deg,
     var(--color-darkblue),

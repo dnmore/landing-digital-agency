@@ -21,6 +21,10 @@ input {
   font: inherit;
 }
 
+input:focus {
+  outline: none;
+}
+
 option {
   font: inherit;
   

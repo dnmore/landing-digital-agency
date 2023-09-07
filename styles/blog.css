@@ -1,6 +1,5 @@
 #blog {
-  padding: 1rem;
-  margin: 0;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 .blog-item {
@@ -11,11 +10,12 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .blog-item img {
   width: 100%;
-  overflow: hidden;
+  
 }
 
 .blog-content {

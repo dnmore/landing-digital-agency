@@ -1,4 +1,16 @@
 @media (min-width: 768px) {
+  #hero {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  #hero-content img {
+  width: 100%;
+}
+
   nav {
     flex-direction: row;
   }
@@ -8,8 +20,9 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
+  
 
   .services-content li {
     display: flex;
@@ -22,7 +35,7 @@
   }
 
   #blog {
-    padding: 2rem;
+   padding: 2rem;
   }
 
   .blog-item {
@@ -39,25 +52,20 @@
 
   .team-container {
     flex-direction: row;
-    flex-row: 1fr 1fr 1fr;
     gap: 10px;
   }
 
-  .newsletter-item {
-    padding: 4rem;
+  #connect {
+    flex-direction: row;
+    justify-content: space-between;
   }
-
-  .social-item {
-    padding-left: 4rem;
-  }
-
-  .social-content img {
-    width: 4rem;
-    height: 4rem;
-  }
+  .social-item img {
+  max-width: 90%;
+}
 
   .useful-links {
     flex-direction: row;
+    justify-content: center;
   }
   .useful-links a {
     margin-right: 50px;
@@ -68,7 +76,7 @@
   header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 4rem;
+    padding: 2rem;
   }
 
   #about {
@@ -83,7 +91,7 @@
   #results {
     display: flex;
     justify-content: space-evenly;
-    padding: 4rem;
+    padding: 2rem;
     font-size: 2rem;
   }
 
@@ -106,8 +114,10 @@
     gap: 10px;
   }
 
-  .newsletter-item {
-    padding: 2rem 20rem;
+  #connect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   footer {
@@ -116,11 +126,13 @@
     padding: 2rem;
   }
   .footer-item {
+    
     padding: 0 10rem;
   }
 
   .useful-links {
     flex-direction: column;
+    
   }
 
   .useful-links a {

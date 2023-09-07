@@ -1,14 +1,12 @@
 #team {
+  
   padding: 1rem;
   margin: 0;
-  background: linear-gradient(
-    to left top,
-    var(--color-lightcyan),
-    var(--color-lightgrey)
-  );
 }
 
 .team-container {
+  max-width: 80rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -27,11 +25,11 @@
     var(--color-darkviolet)
   );
   color: var(--color-ghostwhite);
+  overflow: hidden;
 }
 
 .team-item img {
   width: 100%;
-  overflow: hidden;
 }
 
 .team-content {
