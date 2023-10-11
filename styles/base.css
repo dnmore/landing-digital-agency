@@ -80,12 +80,12 @@ nav a {
   flex-direction: column-reverse;
 }
 
-#hero-content p {
+.hero-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
-#hero-content img {
+.hero-content img {
   max-width: 90%;
 }
 
